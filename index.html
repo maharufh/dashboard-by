@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        
+        <aside class="sidebar">
+            <div class="logo">
+                <img src=" " alt="">
+                <h2>acourses</h2>
+            </div>
+            <nav>
+                <ul>
+                    <li class="active"><i class="fas fa-home"></i> Overview</li>
+                    <li><i class="fas fa-book"></i> Courses</li>
+                    <li><i class="fas fa-calendar-alt"></i> Calendar</li>
+                    <li><i class="fas fa-wallet"></i> Payments</li>
+                    <li><i class="fas fa-envelope"></i> Messages</li>
+                </ul>
+            </nav>
+            <div class="logout">
+                <button><i class="fas fa-sign-out-alt"></i> Log Out</button>
+            </div>
+        </aside>
+        
+        <main>
+            <header>
+                <input type="text" placeholder="Search here...">
+                <div class="user-profile">
+                    <span>Beck Bowes</span>
+                    <img src="https://st.depositphotos.com/1743476/1276/i/450/depositphotos_12765264-stock-photo-smiling-business-man.jpg" alt="Profile Picture">
+                </div>
+            </header>
+            
+            <section class="content">
+                <h1>My Courses</h1>
+                <div class="tabs">
+                    <span>All</span>
+                    <span>Active</span>
+                    <span class="active">Upcoming</span>
+                    <span>Completed</span>
+                </div>
+                
+                <div class="course-list">
+                    <div class="course-card">
+                        <img src="https://www.shutterstock.com/image-illustration/this-adorable-cartoon-depiction-features-600nw-2308962209.jpg" alt="English Lecture">
+                        <div class="course-info">
+                            <h3>English Lecture</h3>
+                            <p>Language lessons with the most popular teachers</p>
+                            <span>Languages</span> <br/>
+                            <span>Start: 20 July</span>
+                        </div>
+                        <div class="rating"><i class="fas fa-star"></i> 4.5</div>
+                        <button>View More</button>
+                    </div>
+                    
+                    <div class="course-card">
+                        <img src="https://darvideo.tv/wp-content/uploads/2021/05/E-learning-animation-video.jpg" alt="Design Strategy">
+                        <div class="course-info">
+                            <h3>Design Strategy</h3>
+                            <p>Lesson on planning a design concept and proper planning of work</p>
+                            <span>UI/UX Design</span> | <span>Web Design</span> <br/> <span>Start: 22 July</span>
+                        </div>
+                        <div class="rating"><i class="fas fa-star"></i> 4.5</div>
+                        <button>View More</button>
+                    </div>
+                    
+                    <div class="course-card">
+                        <img src="https://educationalvoice.co.uk/wp-content/uploads/2024/05/image-101.jpeg" alt="Business Lecture">
+                        <div class="course-info">
+                            <h3>Business Lecture</h3>
+                            <p>Lectures on how to build your business safely without fear of new projects</p>
+                            <span>Marketing</span> | <span>Finance</span> <br/><span>Start: 26 July</span>
+                        </div>
+                        <div class="rating"><i class="fas fa-star"></i> 4.5</div>
+                        <br/>
+                        <button>View More</button>
+                    </div>
+                </div>
+            </section>
+        </main>
+        
+        <aside class="schedule">
+            <h2>July 2021</h2>
+            <div class="calendar">
+                <span>Mon</span><span>Tue</span><span>Wed</span><span>Thu</span><span>Fri</span><span>Sat</span><span>Sun</span>
+                <span>4</span><span>5</span><span class="today">6</span><span>7</span><span>8</span><span>9</span><span>10</span>
+            </div>
+            
+            <h3>Schedule</h3>
+            <ul class="schedule-list">
+                <li><span>06 |   </span> English (10 of 20 chapters)<br/> - 15:00 - 16:30 PM</li>
+                <li><span>07 |  </span> Business Strategy (9 of 30 chapters) - 10:00 - 11:00 AM</li>
+                <li><span>07 |  </span> Mobile UX (11 of 13 chapters) - 09:00 - 10:30 AM</li>
+                <li><span>08 |  </span> Illustration (2 of 10 chapters) - 10:00 - 12:00 PM</li>
+                <li><span>08 |   </span> Product Design (10 of 20 chapters) - 09:00 - 10:30 AM</li>
+            </ul>
+        </aside>
+    </div>
+</body>
+</html>
